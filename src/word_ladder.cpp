@@ -8,6 +8,7 @@
 
 using namespace std;
 
+// TODO: write out version with double BFS
 int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
     // first build the dictionary
     unordered_map<string, vector<string>> inters;
