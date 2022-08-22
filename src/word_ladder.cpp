@@ -8,7 +8,11 @@
 
 using namespace std;
 
-// TODO: write out version with double BFS
+/**
+ * This version uses single BFS.
+ * 
+ * Using double BFS reduces runtimes.
+ */
 int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
     // first build the dictionary
     unordered_map<string, vector<string>> inters;
